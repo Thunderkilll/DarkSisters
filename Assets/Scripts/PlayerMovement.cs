@@ -87,6 +87,7 @@ public class PlayerMovement : MonoBehaviour
         if (col.tag == "final")
         {
             Debug.Log("final door");
+            SceneManager.LoadScene(scene.buildIndex+1);
         }
     }
 
