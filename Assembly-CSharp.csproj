@@ -61,12 +61,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\BACK_Button.cs" />
     <Compile Include="Assets\extra-packages\Mobile Game GUI Vector Pack\DEMO_Scripts\DEMO_CreateWindowShareLink.cs" />
     <Compile Include="Assets\extra-packages\Mobile Game GUI Vector Pack\DEMO_Scripts\DEMO_DestroyWindow.cs" />
     <Compile Include="Assets\extra-packages\Mobile Game GUI Vector Pack\DEMO_Scripts\DEMO_GraphicsManager.cs" />
     <Compile Include="Assets\extra-packages\Mobile Game GUI Vector Pack\DEMO_Scripts\DEMO_NavigationInformation.cs" />
     <Compile Include="Assets\extra-packages\Mobile Game GUI Vector Pack\DEMO_Scripts\DEMO_SceneNavigation.cs" />
     <Compile Include="Assets\extra-packages\Mobile Game GUI Vector Pack\DEMO_Scripts\DEMO_SoundManager.cs" />
+    <Compile Include="Assets\Level1.cs" />
     <Compile Include="Assets\Scripts\Camerafollow.cs" />
     <Compile Include="Assets\Scripts\CharacterController2D.cs" />
     <Compile Include="Assets\Scripts\Enemy.cs" />
@@ -74,6 +76,7 @@
     <Compile Include="Assets\Scripts\HealthBarSystem.cs" />
     <Compile Include="Assets\Scripts\HealthBarUIVisual.cs" />
     <Compile Include="Assets\Scripts\Interract.cs" />
+    <Compile Include="Assets\Scripts\MainMenu.cs" />
     <Compile Include="Assets\Scripts\Player.cs" />
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
     <Compile Include="Assets\Scripts\Projectile.cs" />

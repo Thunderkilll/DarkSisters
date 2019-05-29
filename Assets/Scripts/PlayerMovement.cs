@@ -90,6 +90,7 @@ public class PlayerMovement : MonoBehaviour
     {
         animator.SetBool("isDead", true);
         Debug.Log("you died ");
+        SceneManager.LoadScene(scene.buildIndex);
     }
 
     }
