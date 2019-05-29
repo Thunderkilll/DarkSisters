@@ -7,10 +7,10 @@ public class Player : MonoBehaviour {
 
 
     public int health;
-    public GameObject destroyeffect;
+ 
     Scene scene;
     public Interract Interract;
-    Animator animator;
+    public Animator animator;
     public void TakeDamage(int damage)
 
     {
@@ -27,9 +27,18 @@ public class Player : MonoBehaviour {
         if (health <= 0)
         {
             Debug.Log("player is dead");
-            Instantiate(destroyeffect, transform.position, Quaternion.identity);
-           
-            restartGameAfterDeath();
+            animator.SetBool("isDead", true);
+            
+            Interract.scorecappucin = 0;
+            Interract.scorechicha = 0;
+            Interract.scoretey = 0;
+            Debug.Log("restart game 1 ");
+            
+            Debug.Log(scene.buildIndex);
+            SceneManager.LoadScene(scene.buildIndex); //reload active scene 
+            Debug.Log("restart game 2 ");
+            Destroy(gameObject);
+       
         }
 
        
@@ -37,12 +46,7 @@ public class Player : MonoBehaviour {
     void restartGameAfterDeath()
     {
 
-        //turn this game ver to true )
-
-        //Gameover.SetActive(true); //open the UI of gameover 
-        //be able to restart after a time 
-        
-        // timeStamp = Time.time + cooldownSecs; //just a small cooldown 
+       
         StartCoroutine(Waiting()); //waiting for some secs 
 
 
@@ -50,13 +54,10 @@ public class Player : MonoBehaviour {
 
     IEnumerator Waiting()
     {
-        Interract.scorecappucin = 0;
-        Interract.scorechicha = 0;
-        Interract.scoretey = 0;
-        Debug.Log("restart game 1 ");
-        yield return new WaitForSeconds(10f);
+        
+         
+        yield return new WaitForSeconds(0.1f);
         animator.SetBool("isDead", false);
-        Destroy(gameObject);
         Debug.Log(scene.buildIndex);
         SceneManager.LoadScene(scene.buildIndex); //reload active scene 
         Debug.Log("restart game 2 ");

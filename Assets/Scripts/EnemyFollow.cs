@@ -13,7 +13,7 @@ public class EnemyFollow : MonoBehaviour {
     public Animator animator;
     public Image imageUiHealth;
     Scene scene;
-    public Interract Interract;
+   // public Interract Interract;
     //public Transform target;
 
     void Start () {
@@ -39,7 +39,7 @@ public class EnemyFollow : MonoBehaviour {
                 }
                 else
                 {
-                    restartGameAfterDeath();
+                    Debug.Log("player is dead");
                 }
 
             }
@@ -50,32 +50,5 @@ public class EnemyFollow : MonoBehaviour {
 
 
 
-
-
-    void restartGameAfterDeath()
-    {
-
-        //turn this game ver to true )
-
-        //Gameover.SetActive(true); //open the UI of gameover 
-                                  //be able to restart after a time 
-
-        // timeStamp = Time.time + cooldownSecs; //just a small cooldown 
-        StartCoroutine(Waiting()); //waiting for some secs 
-
-
-    }
-
-    IEnumerator Waiting()
-    {
-        Interract.scorecappucin = 0;
-        Interract.scorechicha = 0;
-        Interract.scoretey = 0;
-        Debug.Log("restart game 1 ");
-        yield return new WaitForSeconds(10f);
-        Debug.Log(scene.buildIndex);
-        SceneManager.LoadScene(scene.buildIndex); //reload active scene 
-        Debug.Log("restart game 2 ");
-
-    }
+  
 }
