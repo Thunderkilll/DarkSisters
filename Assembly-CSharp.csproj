@@ -70,6 +70,7 @@
     <Compile Include="Assets\Scripts\Camerafollow.cs" />
     <Compile Include="Assets\Scripts\CharacterController2D.cs" />
     <Compile Include="Assets\Scripts\Enemy.cs" />
+    <Compile Include="Assets\Scripts\EnemyFollow.cs" />
     <Compile Include="Assets\Scripts\Interract.cs" />
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
     <Compile Include="Assets\Scripts\Projectile.cs" />

@@ -22,9 +22,9 @@ GameObject:
   - component: {fileID: 212314310376895106}
   - component: {fileID: 95423976609559754}
   - component: {fileID: 61112313699935574}
+  - component: {fileID: 114529016743336422}
   - component: {fileID: 50027277624463114}
   - component: {fileID: 114906058051976822}
-  - component: {fileID: 114277853133816266}
   - component: {fileID: 114514470555459080}
   - component: {fileID: 114006818212735134}
   m_Layer: 0
@@ -86,7 +86,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1830136507919372}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.85, y: -1.25, z: 0}
+  m_LocalPosition: {x: -0, y: -0.03, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4792821881477022}
@@ -125,7 +125,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1018892852716628}
   m_LocalRotation: {x: 0, y: 0, z: 0.00000034864604, w: 1}
-  m_LocalPosition: {x: -7.43, y: -0, z: 0}
+  m_LocalPosition: {x: -9.2, y: -3.78, z: 0}
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_Children:
   - {fileID: 4738159774848874}
@@ -208,10 +208,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 38b8ac21112b7c34bafd8cdd8491e64b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  offset: 0
-  projectile: {fileID: 0}
-  shootpoint: {fileID: 0}
---- !u!114 &114277853133816266
+  offset: 0.09
+  projectile: {fileID: 1590961031755702, guid: 85adcc19cc4c21d4b9e8e64f90b65be7, type: 2}
+  shootpoint: {fileID: 4535749400665290}
+--- !u!114 &114514470555459080
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1018892852716628}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76faf14aed9b72440b270ce67e327e48, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  chichaPartscore: {fileID: 0}
+  cappuccinScore: {fileID: 0}
+  teyscore: {fileID: 0}
+--- !u!114 &114529016743336422
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -228,22 +242,8 @@ MonoBehaviour:
   runSpeed: 40
   death: 0
   isGameOver: 0
-  controller: {fileID: 114906058051976822}
+  controller: {fileID: 0}
   diagcanvas: {fileID: 0}
---- !u!114 &114514470555459080
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1018892852716628}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 76faf14aed9b72440b270ce67e327e48, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  chichaPartscore: {fileID: 0}
-  cappuccinScore: {fileID: 0}
-  teyscore: {fileID: 0}
 --- !u!114 &114906058051976822
 MonoBehaviour:
   m_ObjectHideFlags: 1

@@ -22,6 +22,7 @@ GameObject:
   - component: {fileID: 212085256876046178}
   - component: {fileID: 61665700061501430}
   - component: {fileID: 114681327812299742}
+  - component: {fileID: 114829145662761026}
   m_Layer: 13
   m_Name: meca_camel2
   m_TagString: Enemy
@@ -81,6 +82,19 @@ MonoBehaviour:
   health: 3
   destroyeffect: {fileID: 1110264763428426, guid: f810eb16aaac4784c875c0ebe6db4864,
     type: 2}
+--- !u!114 &114829145662761026
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1703080950186556}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e79e526827784c43a3d480d6a6cfff7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 1.4
+  distance: 3
 --- !u!212 &212085256876046178
 SpriteRenderer:
   m_ObjectHideFlags: 1

@@ -23,6 +23,7 @@ GameObject:
   - component: {fileID: 95177705522144150}
   - component: {fileID: 114635401200438328}
   - component: {fileID: 61754131670782328}
+  - component: {fileID: 114800140725417848}
   m_Layer: 13
   m_Name: zombie_female
   m_TagString: Enemy
@@ -37,8 +38,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1341966009502016}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 17.22, y: -4.53, z: 0}
-  m_LocalScale: {x: 0.5908879, y: 0.5855467, z: 1}
+  m_LocalPosition: {x: 91.22, y: 0.22, z: 0}
+  m_LocalScale: {x: 0.59089, y: 0.58555, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -100,6 +101,19 @@ MonoBehaviour:
   health: 3
   destroyeffect: {fileID: 1657798570406232, guid: 15ca4ae08f353d84ab20e2ef1e7b8d9c,
     type: 2}
+--- !u!114 &114800140725417848
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1341966009502016}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e79e526827784c43a3d480d6a6cfff7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 0.57
+  distance: 3
 --- !u!212 &212326354038312718
 SpriteRenderer:
   m_ObjectHideFlags: 1
