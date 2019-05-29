@@ -208,6 +208,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 38b8ac21112b7c34bafd8cdd8491e64b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  offset: 0
+  projectile: {fileID: 0}
+  shootpoint: {fileID: 0}
 --- !u!114 &114277853133816266
 MonoBehaviour:
   m_ObjectHideFlags: 1
