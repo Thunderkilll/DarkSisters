@@ -7,6 +7,7 @@ public class Projectile : MonoBehaviour {
     public float speed;
     public float lifeTime;
     public float distance;
+    public int damage;
     public GameObject destroyeffect;
     public LayerMask whatIsSolid;
     private void Start()
@@ -23,9 +24,10 @@ public class Projectile : MonoBehaviour {
             {
                 Debug.Log(hitInfo.collider.name);
                 Debug.Log("give enemy a bit of damage");
+                hitInfo.collider.GetComponent<Enemy>().TakeDamage(damage);
                 DestroyProjectile();
             }
-            
+          
         }
         else
         {

@@ -7003,7 +7003,12 @@ Prefab:
     - target: {fileID: 114906058051976822, guid: 1cd187378dcf618459984e096357f4cf,
         type: 2}
       propertyPath: m_JumpForce
-      value: 200
+      value: 300
+      objectReference: {fileID: 0}
+    - target: {fileID: 50027277624463114, guid: 1cd187378dcf618459984e096357f4cf,
+        type: 2}
+      propertyPath: m_GravityScale
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1cd187378dcf618459984e096357f4cf, type: 2}
@@ -7018,6 +7023,7 @@ GameObject:
   - component: {fileID: 1573092631}
   - component: {fileID: 1573092630}
   - component: {fileID: 1573092632}
+  - component: {fileID: 1573092633}
   m_Layer: 13
   m_Name: meca_camel2
   m_TagString: Enemy
@@ -7108,6 +7114,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 10.22, y: 9.72}
   m_EdgeRadius: 0
+--- !u!114 &1573092633
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1573092629}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15c24c1582354f340bcbc77acb2a810e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 2
 --- !u!1 &1635298621
 GameObject:
   m_ObjectHideFlags: 0
