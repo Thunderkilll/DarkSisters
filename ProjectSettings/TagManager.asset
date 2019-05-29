@@ -9,6 +9,7 @@ TagManager:
   - enemy
   - destructables
   - 5omsa
+  - death
   layers:
   - Default
   - TransparentFX
