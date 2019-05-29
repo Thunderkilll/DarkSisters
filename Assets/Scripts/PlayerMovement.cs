@@ -84,6 +84,10 @@ public class PlayerMovement : MonoBehaviour
         {
             diagcanvas.SetActive(false);
         }
+        if (col.tag == "final")
+        {
+            Debug.Log("final door");
+        }
     }
 
     public void Death()
