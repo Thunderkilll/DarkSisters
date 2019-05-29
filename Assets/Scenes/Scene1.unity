@@ -7000,6 +7000,11 @@ Prefab:
       propertyPath: offset
       value: 0.09
       objectReference: {fileID: 0}
+    - target: {fileID: 114906058051976822, guid: 1cd187378dcf618459984e096357f4cf,
+        type: 2}
+      propertyPath: m_JumpForce
+      value: 200
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1cd187378dcf618459984e096357f4cf, type: 2}
   m_IsPrefabParent: 0
@@ -7072,7 +7077,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1573092629}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7.63, y: -3.63, z: 0}
+  m_LocalPosition: {x: 4.39, y: -3.5, z: 0}
   m_LocalScale: {x: 0.33487353, y: 0.26661903, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -7087,7 +7092,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}

@@ -7,7 +7,7 @@ public class Projectile : MonoBehaviour {
     public float speed;
     public float lifeTime;
     public float distance;
-   // public GameObject destroyeffect;
+    public GameObject destroyeffect;
     public LayerMask whatIsSolid;
     private void Start()
     {
@@ -15,15 +15,21 @@ public class Projectile : MonoBehaviour {
     }
     private void Update()
     {
-        RaycastHit2D hitInfo = Physics2D.Raycast(transform.position, transform.right, distance);
+        RaycastHit2D hitInfo = Physics2D.Raycast(transform.position, transform.right, distance , whatIsSolid);
         if (hitInfo.collider != null)
         {
-            if (hitInfo.collider.tag == "Enemy")
+            Debug.Log(hitInfo.collider.name);
+            if (hitInfo.collider.CompareTag ("Enemy"))
             {
-                Debug.Log(hitInfo.collider.gameObject.name);
+                Debug.Log(hitInfo.collider.name);
                 Debug.Log("give enemy a bit of damage");
+                DestroyProjectile();
             }
-            //DestroyProjectile();
+            
+        }
+        else
+        {
+            Debug.Log("not hitting anyone");
         }
         transform.Translate(transform.right * speed * Time.deltaTime);
          
@@ -31,7 +37,7 @@ public class Projectile : MonoBehaviour {
 
     public void DestroyProjectile()
     {
-       // Instantiate(destroyeffect , transform.position , Quaternion.identity);
+        // Instantiate(destroyeffect , transform.position , Quaternion.identity);
         Destroy(gameObject);
  
     }
