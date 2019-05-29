@@ -7861,9 +7861,10 @@ GameObject:
   - component: {fileID: 625243564}
   - component: {fileID: 625243566}
   - component: {fileID: 625243565}
-  m_Layer: 0
+  - component: {fileID: 625243567}
+  m_Layer: 13
   m_Name: zombie_male
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7944,6 +7945,20 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!114 &625243567
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 625243563}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15c24c1582354f340bcbc77acb2a810e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 3
+  destroyeffect: {fileID: 1657798570406232, guid: 15ca4ae08f353d84ab20e2ef1e7b8d9c,
+    type: 2}
 --- !u!1 &665170152
 GameObject:
   m_ObjectHideFlags: 0
@@ -9265,9 +9280,10 @@ GameObject:
   - component: {fileID: 1090366442}
   - component: {fileID: 1090366441}
   - component: {fileID: 1090366443}
-  m_Layer: 0
+  - component: {fileID: 1090366444}
+  m_Layer: 13
   m_Name: zombie_female
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9348,6 +9364,20 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1090366444
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1090366440}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15c24c1582354f340bcbc77acb2a810e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 3
+  destroyeffect: {fileID: 1657798570406232, guid: 15ca4ae08f353d84ab20e2ef1e7b8d9c,
+    type: 2}
 --- !u!1 &1100905600
 GameObject:
   m_ObjectHideFlags: 0
