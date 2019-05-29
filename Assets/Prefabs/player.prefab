@@ -26,6 +26,7 @@ GameObject:
   - component: {fileID: 114906058051976822}
   - component: {fileID: 114277853133816266}
   - component: {fileID: 114514470555459080}
+  - component: {fileID: 114006818212735134}
   m_Layer: 0
   m_Name: player
   m_TagString: Player
@@ -48,6 +49,21 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!1 &1830136507919372
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4535749400665290}
+  m_Layer: 0
+  m_Name: attackPosition
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1 &1839838345534364
 GameObject:
   m_ObjectHideFlags: 0
@@ -63,6 +79,19 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!4 &4535749400665290
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1830136507919372}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.85, y: -1.25, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4792821881477022}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4572485520535244
 Transform:
   m_ObjectHideFlags: 1
@@ -101,6 +130,7 @@ Transform:
   m_Children:
   - {fileID: 4738159774848874}
   - {fileID: 4572485520535244}
+  - {fileID: 4535749400665290}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -167,6 +197,17 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &114006818212735134
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1018892852716628}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38b8ac21112b7c34bafd8cdd8491e64b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &114277853133816266
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -185,6 +226,7 @@ MonoBehaviour:
   death: 0
   isGameOver: 0
   controller: {fileID: 114906058051976822}
+  diagcanvas: {fileID: 0}
 --- !u!114 &114514470555459080
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -196,6 +238,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 76faf14aed9b72440b270ce67e327e48, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  chichaPartscore: {fileID: 0}
+  cappuccinScore: {fileID: 0}
+  teyscore: {fileID: 0}
 --- !u!114 &114906058051976822
 MonoBehaviour:
   m_ObjectHideFlags: 1
