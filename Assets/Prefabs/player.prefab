@@ -25,6 +25,7 @@ GameObject:
   - component: {fileID: 50027277624463114}
   - component: {fileID: 114906058051976822}
   - component: {fileID: 114277853133816266}
+  - component: {fileID: 114514470555459080}
   m_Layer: 0
   m_Name: player
   m_TagString: Player
@@ -95,7 +96,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1018892852716628}
   m_LocalRotation: {x: 0, y: 0, z: 0.00000034864604, w: 1}
-  m_LocalPosition: {x: -11.76, y: -3.7, z: 0}
+  m_LocalPosition: {x: -7.43, y: -0, z: 0}
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_Children:
   - {fileID: 4738159774848874}
@@ -131,7 +132,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 1018892852716628}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 070025f49a540a44d9c3b371bb4e93ac, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -183,6 +184,18 @@ MonoBehaviour:
   runSpeed: 40
   death: 0
   isGameOver: 0
+  controller: {fileID: 114906058051976822}
+--- !u!114 &114514470555459080
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1018892852716628}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76faf14aed9b72440b270ce67e327e48, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &114906058051976822
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -194,15 +207,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4736e4832d30e6941a387f4603547e35, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_JumpForce: 400
+  m_JumpForce: 300
   m_CrouchSpeed: 0.36
   m_MovementSmoothing: 0.05
   m_AirControl: 0
   m_WhatIsGround:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 4294964425
   m_GroundCheck: {fileID: 4738159774848874}
-  m_CeilingCheck: {fileID: 0}
+  m_CeilingCheck: {fileID: 4572485520535244}
   m_CrouchDisableCollider: {fileID: 0}
   OnLandEvent:
     m_PersistentCalls:
