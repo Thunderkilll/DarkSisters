@@ -4293,7 +4293,7 @@ GameObject:
   - component: {fileID: 251353385}
   - component: {fileID: 251353387}
   - component: {fileID: 251353386}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Text_diag
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4368,7 +4368,7 @@ GameObject:
   - component: {fileID: 261800333}
   - component: {fileID: 261800332}
   - component: {fileID: 261800331}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: dialogcanvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4714,6 +4714,10 @@ Prefab:
       propertyPath: m_LocalScale.y
       value: 0.18078999
       objectReference: {fileID: 0}
+    - target: {fileID: 1113998972049652, guid: 1d26519d17a7ef146ae6219028cd114f, type: 2}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1d26519d17a7ef146ae6219028cd114f, type: 2}
   m_IsPrefabParent: 0
@@ -4804,7 +4808,7 @@ GameObject:
   m_Component:
   - component: {fileID: 474338173}
   - component: {fileID: 474338174}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Cactus (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4908,6 +4912,10 @@ Prefab:
       propertyPath: m_RootOrder
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 1830859986490446, guid: d8c8695b13977ad4490e7dd36538f91b, type: 2}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d8c8695b13977ad4490e7dd36538f91b, type: 2}
   m_IsPrefabParent: 0
@@ -4954,6 +4962,10 @@ Prefab:
     - target: {fileID: 4574758988123734, guid: 8df189ee9bd90444c94e62af9631d9df, type: 2}
       propertyPath: m_RootOrder
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1585506565202512, guid: 8df189ee9bd90444c94e62af9631d9df, type: 2}
+      propertyPath: m_Layer
+      value: 12
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8df189ee9bd90444c94e62af9631d9df, type: 2}
@@ -5047,7 +5059,7 @@ GameObject:
   - component: {fileID: 665170153}
   - component: {fileID: 665170155}
   - component: {fileID: 665170154}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: SignArrow
   m_TagString: directions
   m_Icon: {fileID: 0}
@@ -5648,7 +5660,7 @@ GameObject:
   m_Component:
   - component: {fileID: 681925137}
   - component: {fileID: 681925136}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Cactus (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5755,6 +5767,10 @@ Prefab:
     - target: {fileID: 4367892152513084, guid: ce5e34dc2cf8dd84cb79628edf8595d3, type: 2}
       propertyPath: m_LocalScale.y
       value: 0.22897603
+      objectReference: {fileID: 0}
+    - target: {fileID: 1106910455168638, guid: ce5e34dc2cf8dd84cb79628edf8595d3, type: 2}
+      propertyPath: m_Layer
+      value: 12
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ce5e34dc2cf8dd84cb79628edf8595d3, type: 2}
@@ -6016,6 +6032,10 @@ Prefab:
       propertyPath: m_Name
       value: "K\xE9sT\xE9y"
       objectReference: {fileID: 0}
+    - target: {fileID: 1113998972049652, guid: 1d26519d17a7ef146ae6219028cd114f, type: 2}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1d26519d17a7ef146ae6219028cd114f, type: 2}
   m_IsPrefabParent: 0
@@ -6186,6 +6206,10 @@ Prefab:
       propertyPath: m_LocalScale.y
       value: 0.18078999
       objectReference: {fileID: 0}
+    - target: {fileID: 1113998972049652, guid: 1d26519d17a7ef146ae6219028cd114f, type: 2}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1d26519d17a7ef146ae6219028cd114f, type: 2}
   m_IsPrefabParent: 0
@@ -6229,7 +6253,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1042211296}
   - component: {fileID: 1042211297}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Cactus (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6377,7 +6401,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1174822616}
   - component: {fileID: 1174822615}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Tree
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6481,6 +6505,10 @@ Prefab:
       propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1215900660427978, guid: fad5f1ee04702be45989b5dced3789a7, type: 2}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: fad5f1ee04702be45989b5dced3789a7, type: 2}
   m_IsPrefabParent: 0
@@ -6539,6 +6567,10 @@ Prefab:
     - target: {fileID: 4538119697603108, guid: 1d26519d17a7ef146ae6219028cd114f, type: 2}
       propertyPath: m_LocalScale.y
       value: 0.18078999
+      objectReference: {fileID: 0}
+    - target: {fileID: 1113998972049652, guid: 1d26519d17a7ef146ae6219028cd114f, type: 2}
+      propertyPath: m_Layer
+      value: 12
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1d26519d17a7ef146ae6219028cd114f, type: 2}
@@ -6769,6 +6801,10 @@ Prefab:
       propertyPath: m_Name
       value: "K\xE9sT\xE9y"
       objectReference: {fileID: 0}
+    - target: {fileID: 1113998972049652, guid: 1d26519d17a7ef146ae6219028cd114f, type: 2}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1d26519d17a7ef146ae6219028cd114f, type: 2}
   m_IsPrefabParent: 0
@@ -6823,6 +6859,10 @@ Prefab:
       propertyPath: m_LocalScale.y
       value: 0.18078999
       objectReference: {fileID: 0}
+    - target: {fileID: 1113998972049652, guid: 1d26519d17a7ef146ae6219028cd114f, type: 2}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1d26519d17a7ef146ae6219028cd114f, type: 2}
   m_IsPrefabParent: 0
@@ -6869,6 +6909,10 @@ Prefab:
     - target: {fileID: 4538119697603108, guid: 1d26519d17a7ef146ae6219028cd114f, type: 2}
       propertyPath: m_RootOrder
       value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1113998972049652, guid: 1d26519d17a7ef146ae6219028cd114f, type: 2}
+      propertyPath: m_Layer
+      value: 12
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1d26519d17a7ef146ae6219028cd114f, type: 2}
@@ -6959,6 +7003,106 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1cd187378dcf618459984e096357f4cf, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &1573092629
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1573092631}
+  - component: {fileID: 1573092630}
+  - component: {fileID: 1573092632}
+  m_Layer: 13
+  m_Name: meca_camel2
+  m_TagString: Enemy
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!212 &1573092630
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1573092629}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: -1338201967
+  m_SortingLayer: 3
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 05405bf60e2d7484384b7a4185e4e775, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 10.22, y: 9.72}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+--- !u!4 &1573092631
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1573092629}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -7.63, y: -3.63, z: 0}
+  m_LocalScale: {x: 0.33487353, y: 0.26661903, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 12
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1573092632
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1573092629}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 10.22, y: 9.72}
+    newSize: {x: 10.22, y: 9.72}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 10.22, y: 9.72}
+  m_EdgeRadius: 0
 --- !u!1 &1635298621
 GameObject:
   m_ObjectHideFlags: 0
@@ -7126,7 +7270,7 @@ GameObject:
   - component: {fileID: 1751680295}
   - component: {fileID: 1751680297}
   - component: {fileID: 1751680296}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Image_diag
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7451,6 +7595,10 @@ Prefab:
       propertyPath: m_LocalScale.y
       value: 0.18078999
       objectReference: {fileID: 0}
+    - target: {fileID: 1113998972049652, guid: 1d26519d17a7ef146ae6219028cd114f, type: 2}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1d26519d17a7ef146ae6219028cd114f, type: 2}
   m_IsPrefabParent: 0
@@ -7508,6 +7656,10 @@ Prefab:
     - target: {fileID: 1830859986490446, guid: d8c8695b13977ad4490e7dd36538f91b, type: 2}
       propertyPath: m_Name
       value: Cappucin
+      objectReference: {fileID: 0}
+    - target: {fileID: 1830859986490446, guid: d8c8695b13977ad4490e7dd36538f91b, type: 2}
+      propertyPath: m_Layer
+      value: 12
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d8c8695b13977ad4490e7dd36538f91b, type: 2}
@@ -7641,6 +7793,10 @@ Prefab:
     - target: {fileID: 4538119697603108, guid: 1d26519d17a7ef146ae6219028cd114f, type: 2}
       propertyPath: m_LocalScale.y
       value: 0.18078999
+      objectReference: {fileID: 0}
+    - target: {fileID: 1113998972049652, guid: 1d26519d17a7ef146ae6219028cd114f, type: 2}
+      propertyPath: m_Layer
+      value: 12
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1d26519d17a7ef146ae6219028cd114f, type: 2}

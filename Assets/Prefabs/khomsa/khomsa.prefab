@@ -99,8 +99,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 10
   lifeTime: 1.5
-  destroyeffect: {fileID: 1107187493946644, guid: 3b151956a8abf4e49ac0cc96d89c93e5,
-    type: 2}
+  distance: 136.59
+  whatIsSolid:
+    serializedVersion: 2
+    m_Bits: 12288
 --- !u!212 &212610928004058348
 SpriteRenderer:
   m_ObjectHideFlags: 1

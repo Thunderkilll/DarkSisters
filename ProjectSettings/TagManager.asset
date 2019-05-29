@@ -6,10 +6,10 @@ TagManager:
   tags:
   - directions
   - interractbles
-  - enemy
   - destructables
   - 5omsa
   - death
+  - Enemy
   layers:
   - Default
   - TransparentFX
@@ -23,8 +23,8 @@ TagManager:
   - Player
   - platform
   - background
-  - 
-  - 
+  - Environment
+  - Enemy
   - 
   - 
   - 
