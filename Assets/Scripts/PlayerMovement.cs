@@ -19,6 +19,7 @@ public class PlayerMovement : MonoBehaviour
     bool jump = false;
     public static float scoreGim = 0;
     public CharacterController2D controller;
+    public GameObject diagcanvas;
     void Start()
     {
         scene = SceneManager.GetActiveScene();
@@ -75,8 +76,13 @@ public class PlayerMovement : MonoBehaviour
         }
         if (col.tag == "directions")
         {
-
+            diagcanvas.SetActive(true);
             Debug.Log("back this way player move foward and then jump");
+            diagcanvas.SetActive(false);
+        }
+        else
+        {
+            diagcanvas.SetActive(false);
         }
     }
 
