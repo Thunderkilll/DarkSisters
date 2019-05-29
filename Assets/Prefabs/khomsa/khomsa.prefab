@@ -101,7 +101,7 @@ MonoBehaviour:
   lifeTime: 1.5
   distance: 136.59
   damage: 1
-  destroyeffect: {fileID: 1107187493946644, guid: 3b151956a8abf4e49ac0cc96d89c93e5,
+  destroyeffect: {fileID: 1657798570406232, guid: 15ca4ae08f353d84ab20e2ef1e7b8d9c,
     type: 2}
   whatIsSolid:
     serializedVersion: 2

@@ -6,6 +6,7 @@ public class Enemy : MonoBehaviour {
 
 
     public int health;
+    public GameObject destroyeffect;
     public void TakeDamage(int damage)
     {
         health -= damage;
@@ -21,6 +22,7 @@ public class Enemy : MonoBehaviour {
         if (health <= 0)
         {
             Debug.Log("enemy is dead");
+            Instantiate(destroyeffect, transform.position, Quaternion.identity);
             Destroy(gameObject);
         }
     }
