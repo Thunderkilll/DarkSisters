@@ -8,9 +8,9 @@ public class Interract : MonoBehaviour {
     public Text chichaPartscore;
     public Text cappuccinScore;
     public Text teyscore;
-    int scorecappucin = 0;
-    int scoretey = 0;
-    int scorechicha = 0;
+    public int scorecappucin = 0;
+    public static int scoretey = 0;
+    public static int scorechicha = 0;
     void Start()
     {
           scorecappucin = 0;

@@ -71,7 +71,10 @@
     <Compile Include="Assets\Scripts\CharacterController2D.cs" />
     <Compile Include="Assets\Scripts\Enemy.cs" />
     <Compile Include="Assets\Scripts\EnemyFollow.cs" />
+    <Compile Include="Assets\Scripts\HealthBarSystem.cs" />
+    <Compile Include="Assets\Scripts\HealthBarUIVisual.cs" />
     <Compile Include="Assets\Scripts\Interract.cs" />
+    <Compile Include="Assets\Scripts\Player.cs" />
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
     <Compile Include="Assets\Scripts\Projectile.cs" />
     <Compile Include="Assets\Scripts\Weapon.cs" />

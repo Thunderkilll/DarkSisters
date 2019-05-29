@@ -22,6 +22,7 @@ GameObject:
   - component: {fileID: 212314310376895106}
   - component: {fileID: 95423976609559754}
   - component: {fileID: 61112313699935574}
+  - component: {fileID: 114119728458293528}
   - component: {fileID: 114529016743336422}
   - component: {fileID: 50027277624463114}
   - component: {fileID: 114906058051976822}
@@ -211,6 +212,19 @@ MonoBehaviour:
   offset: 0.09
   projectile: {fileID: 1590961031755702, guid: 85adcc19cc4c21d4b9e8e64f90b65be7, type: 2}
   shootpoint: {fileID: 4535749400665290}
+--- !u!114 &114119728458293528
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1018892852716628}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb74b7e180c2b144caa667a316a74e4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 0
+  destroyeffect: {fileID: 0}
 --- !u!114 &114514470555459080
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -242,7 +256,7 @@ MonoBehaviour:
   runSpeed: 40
   death: 0
   isGameOver: 0
-  controller: {fileID: 0}
+  controller: {fileID: 114906058051976822}
   diagcanvas: {fileID: 0}
 --- !u!114 &114906058051976822
 MonoBehaviour:
@@ -255,7 +269,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4736e4832d30e6941a387f4603547e35, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_JumpForce: 300
+  m_JumpForce: 150
   m_CrouchSpeed: 0.36
   m_MovementSmoothing: 0.05
   m_AirControl: 0
